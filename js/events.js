@@ -23,7 +23,7 @@ $('#typing').on('keydown', function (event) {
 }
 
 function submitIt() {
-$('#typing').on('submit', function () {
+$('form').on('submit', function () {
   alert('Your form is going to be submitted now.')
 })
 }
@@ -34,5 +34,5 @@ $(document).ready(function(){
 getIt();
 frameIt();
 pressIt();
-submitIt(); 
+submitIt();
 });
