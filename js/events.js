@@ -14,7 +14,7 @@ function frameIt() {
 
 function pressIt(){
 $('#typing').on('keydown', function () {
-  if (e.which === 71){
+  if ('#typing' === 71){
     alert()
 
   }
