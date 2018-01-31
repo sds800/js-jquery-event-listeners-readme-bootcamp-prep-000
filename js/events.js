@@ -13,8 +13,8 @@ function frameIt() {
 }
 
 function pressIt(){
-$('#typing').on('keydown', function () {
-  if ('key' === 71){
+$('#typing').on('keydown', function (event) {
+  if (event.which == 71){
     alert('You Have Pressed G!')
 
   }
